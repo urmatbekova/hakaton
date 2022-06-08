@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  width: 83px;
+  height: 25px;
+  background: #FF9900;
+  border-radius: 60px;
+  cursor: pointer;
+  border: none;
+  color: #FFFFFF;
+  transition: .4s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
